@@ -3,7 +3,7 @@ import 'express-async-errors';
 import express from 'express';
 import cors from 'cors';
 
-import routes from '../../routes';
+import routes from './routes';
 import ErrorHandlerMiddleware from '@shared/middlewares/ErrorHandlerMiddleware';
 import { AppDataSource } from '@shared/typeorm/data-source';
 
