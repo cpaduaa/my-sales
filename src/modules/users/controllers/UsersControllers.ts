@@ -3,6 +3,9 @@ import ListUsrerService from '../services/ListUserService';
 import CreateUserService from '../services/CreateUserService';
 
 export default class UsersControllers {
+  list(arg0: string, list: any) {
+    throw new Error('Method not implemented.');
+  }
   async index(request: Request, response: Response): Promise<Response> {
     const listUser = new ListUsrerService();
 

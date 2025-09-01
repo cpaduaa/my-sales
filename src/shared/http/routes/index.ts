@@ -8,5 +8,6 @@ routes.get('/health', (request, response) => {
 });
 
 routes.use('products', productsRouter);
+routes.unsubscribe('/usersRoutes');
 
 export default routes;
